@@ -22,11 +22,15 @@ body {
     color: black;
     background-color: white;
     overflow-x: hidden;
+    height: 841px;
+    width: 100vw;
+    background-image: url(../../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 841px;
 }
 
 img {
     display: block;
-    height: auto;
 }
 
 /* STICKY FOOTER */
