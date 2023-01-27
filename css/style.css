@@ -1021,6 +1021,10 @@ footer .footer-bottom__past .past__social {
   align-items: center;
   column-gap: 20px;
 }
+footer .footer-bottom__past .past__social .bx {
+  font-size: 24px;
+  color: #808080;
+}
 footer .footer-bottom__last-text {
   font-family: "Netflix Sans";
   font-style: normal;
@@ -1029,9 +1033,4 @@ footer .footer-bottom__last-text {
   line-height: 14px;
   color: #808080;
   margin-top: 20px;
-}
-footer .footer-bottom .bx {
-  min-width: 24px;
-  min-height: 24px;
-  background: #808080;
 }/*# sourceMappingURL=style.css.map */
