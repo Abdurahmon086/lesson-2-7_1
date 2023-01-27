@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="head container">
+        <div class="head container-fixed">
             <div class="head__head-logo">
                 <h4 class="head__title">
                     trxvl.
@@ -60,51 +61,51 @@
                         <button class="search__btn">Search</button>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="categories container">
-            <h3 class="categories__title">Top categories</h3>
-            <div class="categories__wrapper">
+                <div class="categories container">
+                    <h3 class="categories__title">Top categories</h3>
+                    <div class="categories__wrapper">
 
-                <div class="categories__cards">
-                    <img src="./images/Beaches.svg" alt="Beaches icon" class="categories__img">
-                    <p class="categories__text">Beaches</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Deserts.svg" alt="Deserts icon" class="cards__img">
-                    <p class="categories__text">Deserts</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Mountains.svg" alt="Mountains icon" class="cards__img">
-                    <p class="categories__text">Mountains</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Iconic-Cities.svg" alt="Iconic-Cities icon" class="cards__img">
-                    <p class="categories__text">Iconic Cities</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Houseboats.svg" alt="Houseboats icon" class="cards__img">
-                    <p class="categories__text">Houseboats</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Countryside.svg" alt="Countryside icon" class="cards__img">
-                    <p class="categories__text">Countryside</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Camping.svg" alt="Camping icon" class="cards__img">
-                    <p class="categories__text">Camping</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Castles.svg" alt="Castles icon" class="cards__img">
-                    <p class="categories__text">Castles</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Skiing.svg" alt="Skiing icon" class="cards__img">
-                    <p class="categories__text">Skiing</p>
-                </div>
-                <div class="categories__cards">
-                    <img src="./images/Tropical.svg" alt="Tropical icon" class="cards__img">
-                    <p class="categories__text">Tropical</p>
+                        <div class="categories__cards">
+                            <img src="./images/Beaches.svg" alt="Beaches icon" class="categories__img">
+                            <p class="categories__text">Beaches</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Deserts.svg" alt="Deserts icon" class="cards__img">
+                            <p class="categories__text">Deserts</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Mountains.svg" alt="Mountains icon" class="cards__img">
+                            <p class="categories__text">Mountains</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Iconic-Cities.svg" alt="Iconic-Cities icon" class="cards__img">
+                            <p class="categories__text">Iconic Cities</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Houseboats.svg" alt="Houseboats icon" class="cards__img">
+                            <p class="categories__text">Houseboats</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Countryside.svg" alt="Countryside icon" class="cards__img">
+                            <p class="categories__text">Countryside</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Camping.svg" alt="Camping icon" class="cards__img">
+                            <p class="categories__text">Camping</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Castles.svg" alt="Castles icon" class="cards__img">
+                            <p class="categories__text">Castles</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Skiing.svg" alt="Skiing icon" class="cards__img">
+                            <p class="categories__text">Skiing</p>
+                        </div>
+                        <div class="categories__cards">
+                            <img src="./images/Tropical.svg" alt="Tropical icon" class="cards__img">
+                            <p class="categories__text">Tropical</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -167,23 +168,23 @@
 
         <!-- ---------------------------------------- 5th part ---------------------------------------- -->
 
-        <section class="browse">
+        <section class="browse container">
             <h3 class="browse__title">Browse by property type</h3>
             <ul class="browse__wrapper">
                 <li class="browse__card">
-                    <img src="" alt="" class="browse__img">
+                    <img src="./images/hotels.jpg" alt="hotels img" class="browse__img">
                     <p class="browse__text">Hotels</p>
                 </li>
                 <li class="browse__card">
-                    <img src="" alt="" class="browse__img">
+                    <img src="./images/Apartments.jpg" alt="Apartments img" class="browse__img">
                     <p class="browse__text">Apartments</p>
                 </li>
                 <li class="browse__card">
-                    <img src="" alt="" class="browse__img">
+                    <img src="./images/Resorts.jpg" alt="Resorts img" class="browse__img">
                     <p class="browse__text">Resorts</p>
                 </li>
                 <li class="browse__card">
-                    <img src="" alt="" class="browse__img">
+                    <img src="./images/Villas.jpg" alt="Villas img" class="browse__img">
                     <p class="browse__text">Villas</p>
                 </li>
             </ul>
@@ -191,19 +192,22 @@
 
         <!-- ---------------------------------------- 6th part ---------------------------------------- -->
 
-        <section class="plan">
-            <h2 class="plan__title">Plan your trip with travel expert</h2>
-            <p class="plan__text">Our professional advisors can craft your perfect itinerary</p>
+        <section class="plan container">
+            <div class="plan__wrapper">
+
+                <h2 class="plan__title">Plan your trip with travel expert</h2>
+                <p class="plan__text">Our professional advisors can craft your perfect itinerary</p>
+            </div>
         </section>
 
         <!-- ---------------------------------------- 7th part ---------------------------------------- -->
 
-        <section class="other-travelers">
-            <h3 class="other-travelers">Connect with other travelers in our community</h3>
+        <section class="other-travelers container">
+            <h3 class="other-travelers__title">Connect with other travelers in our community</h3>
             <ul class="other-travelers__wrapper">
                 <li class="other-travelers__card card">
                     <div class="card__top">
-                        <img src="" alt="" class="card__img">
+                        <img src="./images/India.jpg" alt="India img" class="card__img">
                     </div>
                     <div class="card__bottom">
                         <h4 class="card__title">India</h4>
@@ -213,7 +217,7 @@
                 </li>
                 <li class="other-travelers__card card">
                     <div class="card__top">
-                        <img src="" alt="" class="card__img">
+                        <img src="./images/Travel-Talk.jpg" alt="Travel-Talk img" class="card__img">
                     </div>
                     <div class="card__bottom">
                         <h4 class="card__title">Travel Talk</h4>
@@ -223,7 +227,7 @@
                 </li>
                 <li class="other-travelers__card card">
                     <div class="card__top">
-                        <img src="" alt="" class="card__img">
+                        <img src="./images/Beach.svg" alt="Beach img" class="card__img">
                     </div>
                     <div class="card__bottom">
                         <h4 class="card__title">Beach</h4>
@@ -233,7 +237,7 @@
                 </li>
                 <li class="other-travelers__card card">
                     <div class="card__top">
-                        <img src="" alt="" class="card__img">
+                        <img src="./images/Mountains.jpg" alt="Mountains img" class="card__img">
                     </div>
                     <div class="card__bottom">
                         <h4 class="card__title">Mountains</h4>
@@ -248,9 +252,9 @@
     <!-- --------------------------------------- footer------------------------------------- -->
 
     <footer>
-        <div class="footer-top">
+        <div class="footer-top container">
             <div class="footer-top__inner">
-                <img src="" alt="" class="footer-top__img">
+                <img src="./images/iPhone13.png" alt="iPhone13" class="footer-top__img">
                 <div class="footer-top__left">
                     <h2 class="footer-top__title">Your all-in-one travel app.</h2>
                     <p class="footer-top__text">Book flights, hotels, trains & rental cars anywhere in the world in just
@@ -265,60 +269,86 @@
                             </div>
                             <p class="card__text">Enter your phone number to receive a text with a link to download the
                                 app.</p>
-                            <div class="card__form">
-                                <input type="search" name="search" id="search" placeholder="+91 Mobile number">
-                                <button class="card__form-btn">Search</button>
-                            </div>
+                            <form class="card__form">
+                                <label class="card__label">
+                                    <input type="text" name="text" placeholder="+91 Mobile number">
+                                    <button class="card__form-btn">Search</button>
+                                </label>
+                            </form>
                         </div>
+
+                        <div class="card__midle">
+                            <p>or</p>
+                        </div>
+
                         <div class="card__right">
-                            <img src="" alt="" class="card__img">
-                            <img src="" alt="" class="card__img">
+                            <img src="./images/playmarket.png" alt="playmarket img" class="card__img">
+                            <img src="./images/appstore.png" alt="appstore img" class="card__img">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="footer-bottom__inner">
+        <div class="footer-bottom ">
+            <div class="footer-bottom__inner container">
                 <div class="footer-bottom__wrapper">
                     <h2 class="footer-bottom__logo">Trxvl.</h2>
-                    <ul class="footer-bottom__list">
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Seslendirme ve Alt
-                                Jazz</a></li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Media Market</a></li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Gillie</a></li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Size Last</a></li>
-                    </ul>
-                    <ul class="footer-bottom__list">
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Self Betimes</a></li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Yatırımcı İlişkileri</a>
-                        </li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Basal Himmler</a></li>
-                    </ul>
-                    <ul class="footer-bottom__list">
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Yard Market</a></li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Is İmkanları</a></li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Car Tercihleri</a></li>
-                    </ul>
-                    <ul class="footer-bottom__list">
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Hedge Karla</a></li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Mullein Koşulları</a>
-                        </li>
-                        <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Autumnal Bulgier</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-bottom__past past">
-                    <button class="past__btn">Helmet KOD</button>
-                    <div class="past__social">
-                        <img src="" alt="" class="past__img">
-                        <img src="" alt="" class="past__img">
-                        <img src="" alt="" class="past__img">
-                        <img src="" alt="" class="past__img">
+                    <div class="footer-bottom__all">
+                        <div class="list-wrapper">
+
+                            <ul class="footer-bottom__list">
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Seslendirme ve
+                                        Alt
+                                        Jazz</a></li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Media Market</a>
+                                </li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Gillie</a></li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Size Last</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-bottom__list">
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Self Betimes</a>
+                                </li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Yatırımcı
+                                        İlişkileri</a>
+                                </li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Basal
+                                        Himmler</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-bottom__list">
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Yard Market</a>
+                                </li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Is İmkanları</a>
+                                </li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Car
+                                        Tercihleri</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-bottom__list">
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Hedge Karla</a>
+                                </li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Mullein
+                                        Koşulları</a>
+                                </li>
+                                <li class="footer-bottom__item"><a href="#" class="footer-bottom__link">Autumnal
+                                        Bulgier</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-bottom__past past">
+                            <button class="past__btn">Helmet KOD</button>
+                            <div class="past__social">
+                                <i class='bx bxl-facebook-square'></i>
+                                <i class='bx bxl-instagram-alt'></i>
+                                <i class='bx bxl-twitter'></i>
+                                <i class='bx bxl-youtube'></i>
+                            </div>
+                        </div>
+                        <div class="footer-bottom__last">
+                            <p class="footer-bottom__last-text">© 1997-2021 Netflix, Inc. {i-062d573a0ee099242}</p>
+                        </div>
                     </div>
-                </div>
-                <div class="footer-bottom__last">
-                    <p class="footer-bottom__last-text">© 1997-2021 Netflix, Inc. {i-062d573a0ee099242}</p>
                 </div>
             </div>
         </div>

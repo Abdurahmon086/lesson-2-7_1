@@ -1,38 +1,3 @@
-.categories {
-    margin-top: 40px;
-
-    &__title {
-        font-family: 'Helvetica';
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 37px;
-        color: #FFFFFF;
-        margin: 0;
-    }
-
-    &__wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        column-gap: 40.89px;
-        margin-top: 32px;
-    }
-
-    &__cards {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    &__text {
-        font-family: 'Helvetica';
-        line-height: 18px;
-        color: #FFFFFF;
-        opacity: 0.4;
-        margin: 16px 0 0 0;
-    }
-}
-
 .vacation {
     margin-top: 80px;
     overflow-x: hidden;
@@ -85,6 +50,7 @@
 .offer {
     margin-top: 80px;
     overflow-x: hidden;
+    padding-bottom: 20px;
 
 
     &__title {
@@ -169,6 +135,139 @@
                 padding: 16px 32px;
                 border: none;
                 margin-top: 16px;
+            }
+        }
+    }
+}
+
+.browse {
+    margin-top: 60px;
+    overflow-x: hidden;
+
+    &__title {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;
+
+    }
+
+    &__wrapper {
+        margin: 40px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 24px;
+    }
+
+    &__card {
+        position: relative;
+    }
+
+    &__img {
+        border-radius: 10px;
+        max-width: 310px;
+    }
+
+    &__text {
+        position: absolute;
+        left: 24px;
+        top: 126px;
+        font-family: 'Netflix Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        color: #FFFFFF;
+
+    }
+}
+
+.plan {
+    margin-top: 72px;
+
+    &__wrapper {
+        border-radius: 20px;
+        padding: 80px 81px;
+        min-height: 395px;
+        background-image: url(../../images/Plan.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    &__title {
+        font-family: 'Helvetica';
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #FFFFFF;
+        max-width: 670px;
+    }
+
+    &__text {
+        font-family: 'Netflix Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 41px;
+        color: #FFFFFF;
+        margin-top: 24px;
+    }
+}
+
+.other-travelers {
+    margin-top: 80px;
+    padding-bottom: 140px;
+
+    &__title {
+        font-family: 'Helvetica';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;
+    }
+
+    &__wrapper {
+        padding-top: 16px;
+        padding-bottom: 20px;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 16px;
+    }
+
+    &__card {
+        padding: 16px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+        border-radius: 16px;
+
+        .card {
+
+            &__img {
+                max-width: 280px;
+                min-height: 200px;
+            }
+
+            &__title {
+                font-family: 'Netflix Sans';
+                font-size: 24px;
+                line-height: 31px;
+                color: #000000;
+                margin-top: 24px;
+            }
+
+            &__text {
+                font-family: 'Netflix Sans';
+                font-size: 16px;
+                line-height: 20px;
+                color: #000000;
+                opacity: 0.5;
+                margin-top: 8px;
             }
         }
     }
